@@ -6,7 +6,6 @@
 stored.color = []
 
 cmd.iterate ("pk1", "stored.color.append(color)" )
-print stored.color[0]
 color_indices=cmd.get_color_indices()
 tuple_pml=cmd.get_color_tuple(stored.color[0])
 tuple_cst=[255, 255, 255]
